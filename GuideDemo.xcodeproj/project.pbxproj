@@ -21,6 +21,8 @@
 		E1B016DA1896B1FB0026CB58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B016BC1896B1FB0026CB58 /* UIKit.framework */; };
 		E1B016E21896B1FB0026CB58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1B016E01896B1FB0026CB58 /* InfoPlist.strings */; };
 		E1B016E41896B1FB0026CB58 /* GuideDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B016E31896B1FB0026CB58 /* GuideDemoTests.m */; };
+		E1B016F21896B29F0026CB58 /* Guide.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B016EF1896B29F0026CB58 /* Guide.m */; };
+		E1B016F31896B29F0026CB58 /* Program.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B016F11896B29F0026CB58 /* Program.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E1B016DF1896B1FB0026CB58 /* GuideDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuideDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E1B016E11896B1FB0026CB58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1B016E31896B1FB0026CB58 /* GuideDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideDemoTests.m; sourceTree = "<group>"; };
+		E1B016EE1896B29F0026CB58 /* Guide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide.h; sourceTree = "<group>"; };
+		E1B016EF1896B29F0026CB58 /* Guide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide.m; sourceTree = "<group>"; };
+		E1B016F01896B29F0026CB58 /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
+		E1B016F11896B29F0026CB58 /* Program.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Program.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		E1B016BE1896B1FB0026CB58 /* GuideDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E1B016ED1896B29F0026CB58 /* Models */,
 				E1B016C71896B1FB0026CB58 /* GDAppDelegate.h */,
 				E1B016C81896B1FB0026CB58 /* GDAppDelegate.m */,
 				E1B016CA1896B1FB0026CB58 /* Main.storyboard */,
@@ -150,6 +157,17 @@
 				E1B016E01896B1FB0026CB58 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1B016ED1896B29F0026CB58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1B016EE1896B29F0026CB58 /* Guide.h */,
+				E1B016EF1896B29F0026CB58 /* Guide.m */,
+				E1B016F01896B29F0026CB58 /* Program.h */,
+				E1B016F11896B29F0026CB58 /* Program.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B016F31896B29F0026CB58 /* Program.m in Sources */,
+				E1B016F21896B29F0026CB58 /* Guide.m in Sources */,
 				E1B016C51896B1FB0026CB58 /* main.m in Sources */,
 				E1B016CF1896B1FB0026CB58 /* GDViewController.m in Sources */,
 				E1B016C91896B1FB0026CB58 /* GDAppDelegate.m in Sources */,
