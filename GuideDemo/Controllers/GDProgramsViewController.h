@@ -1,5 +1,5 @@
 //
-//  GDViewController.h
+//  GDProgramsViewController.h
 //  GuideDemo
 //
 //  Created by Mamnun Bhuiyan on 28/01/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GDViewController : UIViewController
+@interface GDProgramsViewController : UITableViewController
 
 @end
